@@ -1,11 +1,3 @@
-	#@Author: 'Umar A.Abu Bakr
-	#@Project: Lexical Analyzer 
-	#@Subject: Compiler Design and Analysis
-	#@Lecturer: Dr.Nizar Awartani
-
-
-
-
 	.file	"lexical.c"
 	.globl	ffinal
 	.bss
@@ -1806,7 +1798,7 @@ _Z4keywPcPS_P4nodeS2_S_:
 	movl	8(%ebp), %eax
 	movl	%eax, (%esp)
 	call	_Z11add_to_listPcb
-	movl	$107, 4(%esp)
+	movl	$119, 4(%esp)
 	movl	8(%ebp), %eax
 	movl	%eax, (%esp)
 	call	_Z18symbolmanipulationPcc

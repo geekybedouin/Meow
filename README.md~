@@ -21,10 +21,10 @@
    How to run 
 =================
 * if you want to run the Bak GUI
-  -in a bash, ksh or csh: [/absolute/path/to/java -jar /absolute/path/to/Bak.Jar]
+  -in a bash, ksh or csh: /absolute/path/to/java -jar /absolute/path/to/Bak.Jar
 
 * if you want to run the kbcc only
-  -in a bash, ksh: [lexical /par1/ /par2/ /par3/]
+  -in a bash, ksh: lexical /par1/ /par2/ /par3/
       -[par1]: absolute/path/to/source.cpp
       -[par2]: absolute/path/to/temp.c **VERY IMPORTANT** --> this is used as the output of the preprocesser which eleminates comments
       -[par3]: absolute/path/to/symbol-table.cpp
@@ -35,11 +35,11 @@
 
 * LEXICAL
 
-  the lexical analyser is written in two languages - c & x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type -  [as /absolute/path/to/lexical.s] - in  terminal
+  the lexical analyser is written in two languages - c & x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type - as /absolute/path/to/lexical.s - in  terminal
 
 * Bak IDE
 
-  use any IDE to compile the code
+  use netbeans to compile the code
 
 ======================
  Project Contribution

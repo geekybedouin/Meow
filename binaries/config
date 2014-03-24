@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo cp lexical /bin
+sudo chmod a+x /bin/lexical
+sudo cp favicon.png /bin
+sudo mkdir /BakIDE
+sudo chmod a+w /BakIDE
+touch homepath
+cd ~
+sudo pwd >> /BakIDE/homepath
