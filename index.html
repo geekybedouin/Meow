@@ -33,52 +33,55 @@
 <h1>
 <a name="-about-the-project" class="anchor" href="#-about-the-project"><span class="octicon octicon-link"></span></a> About the Project</h1>
 
-<p>A free-software minimized educational IDE developed by 'Umar A.Abu Bakr - An-Najah National University | Computer Science student - 2014. Offers a graphical UI implemented in JAVA programming language based on the "Khwarizmi Baby C Compiler" - (kbcc) which is a single-pass compiler, implemented in "x86/GAS Syntax Assembly". The compiler aims to transfer c code into a target machine code/executable program, with a report showing the details of each compiler phase. compatible with GNU/Linux x86 machines.</p>
+<p>A free-software minimized educational IDE developed by 'Umar A.Abu Bakr - An-Najah National University | Computer Science student - 2014. Offers a graphical UI implemented in JAVA programming language based on the "Khwarizmi Baby C Compiler" - (kbcc) which is implemented in "x86/GAS Syntax Assembly". The compiler aims to transfer c code into a target machine code/executable program, with a report showing the details of each compiler phase. compatible with GNU/Linux x86 machines.</p>
 
 <h1></h1>
 
 <h1>
 <a name="--system-specs" class="anchor" href="#--system-specs"><span class="octicon octicon-link"></span></a>  System Specs</h1>
 
-<p>*JDK (Java Development Kit) 7.51 or higher
-*GNU/linux x86 machine
-*gcc, g++ and build-utils installed</p>
+<ul>
+<li>JDK (Java Development Kit) 7.51 or higher</li>
+<li>GNU/linux x86 machine</li>
+<li>gcc, g++ and build-utils installed</li>
+</ul><h1></h1>
 
-<h1></h1>
+<h1>
+<a name="--how-to-install-" class="anchor" href="#--how-to-install-"><span class="octicon octicon-link"></span></a>  How to Install </h1>
+
+<ul>
+<li>In terminal, grant executing permissions to the configuration file (config) [sudo chmod a+x /absolute/path/to/config]</li>
+<li>Run the config file in terminal [./absolute/path/to/config] </li>
+</ul><h1></h1>
 
 <h1>
 <a name="---how-to-run-" class="anchor" href="#---how-to-run-"><span class="octicon octicon-link"></span></a>   How to run </h1>
 
 <ul>
-<li>copy lexical executable to /bin
--could be done in terminal by typing: sudo cp lexical /bin</li>
-<li>grant execution permessions for the lexical analyzer
--could be done in terminal by typing: sudo chmod a+x /bin/lexical</li>
-<li>copy favicon.png to /bin
--could be done in terminal by typing: sudo cp favicon.png /bin</li>
-</ul><p>**if you want to run the Bak GUI
-  -in a bash, ksh or csh: /absolute/path/to/java -jar /absolute/path/to/Bak.Jar</p>
-
-<p><strong>if you want to run the lexical analyser only
-  -in a bash, ksh: lexical [par1] [par2] [par3]
-      -[par1]: absolute/path/to/source.cpp
-      -[par2]: absolute/path/to/temp.c **VERY IMPORTANT</strong> --&gt; this is used as the output of the preprocesser which eleminates comments
-      -[par3]: absolute/path/to/symbol-table.cpp</p>
-
-<h1></h1>
+<li><p>if you want to run the Bak GUI
+-in a bash, ksh or csh: [/absolute/path/to/java -jar /absolute/path/to/Bak.Jar]</p></li>
+<li><p>if you want to run the kbcc only
+-in a bash, ksh: [lexical /par1/ /par2/ /par3/]
+    -[par1]: absolute/path/to/source.cpp
+    -[par2]: absolute/path/to/temp.c <strong>VERY IMPORTANT</strong> --&gt; this is used as the output of the preprocesser which eleminates comments
+    -[par3]: absolute/path/to/symbol-table.cpp</p></li>
+</ul><h1></h1>
 
 <h1>
 <a name="-source-compilation" class="anchor" href="#-source-compilation"><span class="octicon octicon-link"></span></a> Source Compilation</h1>
 
-<p>***LEXICAL</p>
+<ul>
+<li>
+<p>LEXICAL</p>
 
-<p>the lexical analyser is written in two languages [c &amp; x86/gas Assembly] and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type [as /absolute/path/to/lexical.s] in  terminal</p>
+<p>the lexical analyser is written in two languages - c &amp; x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type -  [as /absolute/path/to/lexical.s] - in  terminal</p>
+</li>
+<li>
+<p>Bak IDE</p>
 
-<p>***Bak IDE</p>
-
-<p>use netbeans to compile the code</p>
-
-<h1></h1>
+<p>use any IDE to compile the code</p>
+</li>
+</ul><h1></h1>
 
 <h1>
 <a name="-project-contribution" class="anchor" href="#-project-contribution"><span class="octicon octicon-link"></span></a> Project Contribution</h1>
