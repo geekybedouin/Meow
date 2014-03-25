@@ -1,9 +1,21 @@
 #!/bin/bash
+echo "Installation of Bak-IDE and Kbcc"
+echo "Please enter your password:"
 sudo cp lexical /bin
+echo "Copying files.. Please be patient "
+echo ""
+echo "Bak-IDE and Khwarizmi Baby C Compiler (Kbcc)"
+echo "developed by Umar A.AbuBakr (geekybidouin) & protected by the GPLv3 License .. Free-Softwre project "
+echo ".. Contribute to the project: https://github.com/geekybedouin/Bak-IDE"
 sudo chmod a+x /bin/lexical
 sudo cp favicon.png /bin
+sudo cp bak /bin/bak
+sudo chmod a+x /bin/bak
+sudo cp Bak.jar /bin/Bak.jar
+sudo cp -r resources /bin/bakresources
 sudo mkdir /BakIDE
 sudo chmod a+w /BakIDE
+cd /BakIDE
 touch homepath
 cd ~
 sudo pwd >> /BakIDE/homepath
