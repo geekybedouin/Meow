@@ -72,8 +72,12 @@ http://www.gnu.org/licenses/gpl.txt
 <a name="--how-to-install-" class="anchor" href="#--how-to-install-"><span class="octicon octicon-link"></span></a>  How to Install </h1>
 
 <ul>
-<li>In terminal, grant executing permissions to the configuration file (config) [sudo chmod a+x /absolute/path/to/config]</li>
-<li>Run the config file in terminal [./absolute/path/to/config] </li>
+<li>In terminal, grant executing permissions to the configuration file (config) 
+<code>$ sudo chmod a+x /absolute/path/to/config</code>
+</li>
+<li>Run the config file in terminal 
+<code>$ ./absolute/path/to/config</code>
+</li>
 </ul><h1></h1>
 
 <h1>
@@ -81,12 +85,15 @@ http://www.gnu.org/licenses/gpl.txt
 
 <ul>
 <li><p>if you want to run the meow GUI
--in a bash, ksh or csh: simply type "meow"</p></li>
+-in a bash, ksh or csh: simply type:
+  <code>meow</code></p></li>
 <li><p>if you want to run the kbcc only
--in a bash, ksh: [lexical /par1/ /par2/ /par3/]
-    -[par1]: absolute/path/to/source.cpp
-    -[par2]: absolute/path/to/temp.c <strong>VERY IMPORTANT</strong> --&gt; this is used as the output of the preprocesser which eleminates comments
-    -[par3]: absolute/path/to/symbol-table.cpp</p></li>
+-in a bash, ksh: <code>lexical /par1/ /par2/ /par3/</code></p></li>
+<li>      *[par1]: absolute/path/to/source.cpp</li>
+<li>      *[par2]: absolute/path/to/temp.c </li>
+<li>      *[par3]: absolute/path/to/symbol-table.cpp</li>
+<li>       <strong>VERY IMPORTANT: par2 file is used as the output of the preprocesser</strong>
+</li>
 </ul><h1></h1>
 
 <h1>
@@ -96,7 +103,7 @@ http://www.gnu.org/licenses/gpl.txt
 <li>
 <p>LEXICAL</p>
 
-<p>the lexical analyser is written in two languages - c &amp; x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type -  [as /absolute/path/to/lexical.s] - in  terminal</p>
+<p>the lexical analyser is written in two languages - c &amp; x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type -<br><code>as /absolute/path/to/lexical.s</code></p>
 </li>
 <li>
 <p>meow IDE</p>
