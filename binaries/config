@@ -1,5 +1,9 @@
 #!/bin/bash
-echo "Installation of Bak-IDE and Kbcc"
+echo "Installation of The Meow Project files"
+echo "Meow is a free software: you can redistribute it and/or modify"
+echo "it under the terms of the GNU General Public License as published by"
+echo "the Free Software Foundation, version 3 of the License."
+echo ""
 echo "Please enter your password:"
 sudo cp lexical /bin
 echo "Copying files.. Please be patient "
@@ -9,8 +13,8 @@ echo "developed by Umar A.AbuBakr (geekybidouin) & protected by the GPLv3 Licens
 echo ".. Contribute to the project: https://github.com/geekybedouin/Bak-IDE"
 sudo chmod a+x /bin/lexical
 sudo cp favicon.png /bin
-sudo cp bak /bin/bak
-sudo chmod a+x /bin/bak
+sudo cp meow /bin/meow
+sudo chmod a+x /bin/meow
 sudo cp Bak.jar /bin/Bak.jar
 sudo cp -r resources /bin/bakresources
 sudo mkdir /BakIDE
