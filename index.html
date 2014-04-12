@@ -61,6 +61,11 @@ http://www.gnu.org/licenses/gpl.txt
 <h1></h1>
 
 <h1>
+<a name="about-the-compiler" class="anchor" href="#about-the-compiler"><span class="octicon octicon-link"></span></a>About the Compiler</h1>
+
+<p>Meow project uses Kbcc, which is a part of the whole project. The Khwarizmi Baby C Compiler is a single-pass baby compiler based on a recursive descent parser.The Meow uses the "Educational Release" of the compiler, which doesn't do neither type-checking nor memory manipulation and allocation, because it's only set to let students demonstrate how a compiler works.</p>
+
+<h1>
 <a name="--system-specs" class="anchor" href="#--system-specs"><span class="octicon octicon-link"></span></a>  System Specs</h1>
 
 <ul>
@@ -73,11 +78,10 @@ http://www.gnu.org/licenses/gpl.txt
 
 <ul>
 <li>In terminal, grant executing permissions to the configuration file (config) 
-<code>$ sudo chmod a+x /absolute/path/to/config</code>
+<code>sudo chmod a+x /absolute/path/to/config</code>
 </li>
 <li>Run the config file in terminal 
-<code>$ ./absolute/path/to/config</code>
-</li>
+<code>./absolute/path/to/config</code> </li>
 </ul><h1></h1>
 
 <h1>
@@ -85,15 +89,12 @@ http://www.gnu.org/licenses/gpl.txt
 
 <ul>
 <li><p>if you want to run the meow GUI
--in a bash, ksh or csh: simply type:
-  <code>meow</code></p></li>
+-in a bash, ksh or csh: simply type "meow"</p></li>
 <li><p>if you want to run the kbcc only
--in a bash, ksh: <code>lexical /par1/ /par2/ /par3/</code></p></li>
-<li>      *[par1]: absolute/path/to/source.cpp</li>
-<li>      *[par2]: absolute/path/to/temp.c </li>
-<li>      *[par3]: absolute/path/to/symbol-table.cpp</li>
-<li>       <strong>VERY IMPORTANT: par2 file is used as the output of the preprocesser</strong>
-</li>
+-in a bash, ksh: [lexical /par1/ /par2/ /par3/]
+    -[par1]: absolute/path/to/source.cpp
+    -[par2]: absolute/path/to/temp.c <strong>VERY IMPORTANT</strong> --&gt; this is used as the output of the preprocesser which eleminates comments
+    -[par3]: absolute/path/to/symbol-table.cpp</p></li>
 </ul><h1></h1>
 
 <h1>
@@ -103,7 +104,8 @@ http://www.gnu.org/licenses/gpl.txt
 <li>
 <p>LEXICAL</p>
 
-<p>the lexical analyser is written in two languages - c &amp; x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type -<br><code>as /absolute/path/to/lexical.s</code></p>
+<p>the lexical analyser is written in two languages - c &amp; x86/gas Assembly - and then generated all to a utilized gas assembly code through g++, if you want to assemble the code you can type - 
+<code>as /absolute/path/to/parser.s</code></p>
 </li>
 <li>
 <p>meow IDE</p>
