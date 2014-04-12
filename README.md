@@ -23,8 +23,13 @@
     For the GNU GPLv3 liscese alongside Tterms and conditions:
     http://www.gnu.org/licenses/gpl.txt
 
+==================
+About the Compiler
+==================
 
-=================
+Meow project uses Kbcc, which is a part of the whole project. The Khwarizmi Baby C Compiler is a single-pass baby compiler based on a recursive descent parser.The Meow uses the "Educational Release" of the compiler, which doesn't do neither type-checking nor memory manipulation and allocation, because it's only set to let students demonstrate how a compiler works.
+
+
   System Specs
 =================
 * GNU/linux x86 machine
